@@ -1,13 +1,20 @@
-# Hello
+.. Read The Docs Practice documentation master file, created by
+   sphinx-quickstart on Fri Aug 17 16:05:57 2018.
+   You can adapt this file completely to your liking, but it should at least
+   contain the root `toctree` directive.
 
-## This is an index page
+Welcome to Read The Docs Practice's documentation!
+==================================================
 
-> welcome
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
 
-- option1
-- option2
 
-```python
-for i in range(4):
-    i += 1
-```
+
+Indices and tables
+==================
+
+* :ref:`genindex`
+* :ref:`modindex`
+* :ref:`search`

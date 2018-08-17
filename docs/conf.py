@@ -15,20 +15,18 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-from recommonmark.parser import CommonMarkParser
-source_parsers = {
-    '.md': CommonMarkParser,
-}
+
+
 # -- Project information -----------------------------------------------------
 
-project = u'RTD-Practice'
-copyright = u'2018, Survi'
-author = u'Survi'
+project = u'Read The Docs Practice'
+copyright = u'2018, WANG Jiuhe'
+author = u'WANG Jiuhe'
 
 # The short X.Y version
 version = u''
 # The full version, including alpha/beta/rc tags
-release = u'v0.1'
+release = u''
 
 
 # -- General configuration ---------------------------------------------------
@@ -50,7 +48,7 @@ templates_path = ['_templates']
 # You can specify multiple suffix as a list of string:
 #
 # source_suffix = ['.rst', '.md']
-source_suffix = ['.rst', '.md']
+source_suffix = '.md'
 
 # The master toctree document.
 master_doc = 'index'
@@ -65,7 +63,7 @@ language = None
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
 # This pattern also affects html_static_path and html_extra_path .
-exclude_patterns = []
+exclude_patterns = [u'_build', 'Thumbs.db', '.DS_Store']
 
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = 'sphinx'
@@ -103,7 +101,7 @@ html_static_path = ['_static']
 # -- Options for HTMLHelp output ---------------------------------------------
 
 # Output file base name for HTML help builder.
-htmlhelp_basename = 'RTD-Practicedoc'
+htmlhelp_basename = 'ReadTheDocsPracticedoc'
 
 
 # -- Options for LaTeX output ------------------------------------------------
@@ -130,8 +128,8 @@ latex_elements = {
 # (source start file, target name, title,
 #  author, documentclass [howto, manual, or own class]).
 latex_documents = [
-    (master_doc, 'RTD-Practice.tex', u'RTD-Practice Documentation',
-     u'Survi', 'manual'),
+    (master_doc, 'ReadTheDocsPractice.tex', u'Read The Docs Practice Documentation',
+     u'WANG Jiuhe', 'manual'),
 ]
 
 
@@ -140,7 +138,7 @@ latex_documents = [
 # One entry per manual page. List of tuples
 # (source start file, name, description, authors, manual section).
 man_pages = [
-    (master_doc, 'rtd-practice', u'RTD-Practice Documentation',
+    (master_doc, 'readthedocspractice', u'Read The Docs Practice Documentation',
      [author], 1)
 ]
 
@@ -151,7 +149,7 @@ man_pages = [
 # (source start file, target name, title, author,
 #  dir menu entry, description, category)
 texinfo_documents = [
-    (master_doc, 'RTD-Practice', u'RTD-Practice Documentation',
-     author, 'RTD-Practice', 'One line description of project.',
+    (master_doc, 'ReadTheDocsPractice', u'Read The Docs Practice Documentation',
+     author, 'ReadTheDocsPractice', 'One line description of project.',
      'Miscellaneous'),
 ]
