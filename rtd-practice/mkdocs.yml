@@ -1,6 +1,0 @@
-site_name: RTD Practice
-pages:
-  - Home: index.md
-  - About: about.md
-
-theme: readthedocs
