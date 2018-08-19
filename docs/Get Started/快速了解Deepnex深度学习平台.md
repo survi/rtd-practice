@@ -1,8 +1,8 @@
-
-<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" />
+Get Started
+======================================
 
 ## 1. 系统功能
-
+<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" />
 #### 1.1 主要功能
 
 - 供多租户使用的深度学习云平台，利用CUDA和GPU作计算；
