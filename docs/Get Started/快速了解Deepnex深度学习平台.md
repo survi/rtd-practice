@@ -1,5 +1,5 @@
 
-(setq markdown-css-paths '("https://fonts.googleapis.com/earlyaccess/cwtexyen.css"))
+<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" />
 
 ## 1. 系统功能
 
