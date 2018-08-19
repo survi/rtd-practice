@@ -1,3 +1,6 @@
+
+(setq markdown-css-paths '("https://fonts.googleapis.com/earlyaccess/cwtexyen.css"))
+
 ## 1. 系统功能
 
 #### 1.1 主要功能
