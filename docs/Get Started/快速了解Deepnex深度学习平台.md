@@ -1,9 +1,12 @@
 Get Started
 ======================================
-<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/cwtexyen.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" />
 <style type='text/css'>
 a { text-decoration: none; }
 li { text-decoration: underline; }
+body {
+    font-family: 'Noto Sans TC', sans-serif;
+}
 </style>
 ## 1. 系统功能
 
