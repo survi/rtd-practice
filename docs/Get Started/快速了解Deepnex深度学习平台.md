@@ -1,13 +1,16 @@
 Get Started
 ======================================
+---
+
 <link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/notosansscsliced.css" />
 <style type='text/css'>
 body,h1,h2,h3,h4,h5,h6,h7,h8 {
     font-family: 'Noto Sans SC Sliced', sans-serif;
 }
 </style>
-## 1. 系统功能
 
+## 1. 系统功能
+---
 #### 1.1 主要功能
 
 - 供多租户使用的深度学习云平台，利用CUDA和GPU作计算；
@@ -37,6 +40,7 @@ body,h1,h2,h3,h4,h5,h6,h7,h8 {
     - Ubuntu 16.04/CentOS 7/RHEL 7
 
 ## 2. 总览
+---
 #### 2.1 登录界面
 
 访问本平台后，用会看到下面的登录界面，如`图2.1`所示：
