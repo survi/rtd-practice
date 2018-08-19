@@ -1,11 +1,9 @@
 Get Started
 ======================================
-<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/notosanstc.css" />
+<link rel="stylesheet" type="text/css" media="all" href="https://fonts.googleapis.com/earlyaccess/notosansscsliced.css" />
 <style type='text/css'>
-a { text-decoration: none; }
-li { text-decoration: underline; }
-body {
-    font-family: 'Noto Sans TC', sans-serif;
+body,h1,h2,h3,h4,h5,h6,h7,h8 {
+    font-family: 'Noto Sans SC Sliced', sans-serif;
 }
 </style>
 ## 1. 系统功能
